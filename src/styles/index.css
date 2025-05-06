@@ -9,3 +9,33 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+.to-do-list {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin-top: 100px;
+}
+h1 {
+    font-size: 4rem;
+}
+button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.5 ease ;
+}
+.add-button {
+    background-color: hsl(125, 47%, 54%);
+}
+.add-button:hover {
+    background-color: hsl(125, 47%, 44%);
+}
+.delete-button {
+    background-color: hsl(10, 90%, 50%);
+}
+.delete-button:hover {
+    background-color: hsl(10, 90%, 40%);
+}
